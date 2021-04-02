@@ -1,0 +1,28 @@
+{
+    "name": "hjt-cmd",
+    "version": "0.0.1",
+    "description": "hjt-cmd命令行工具",
+    "main": "index.js",
+    "bin": {
+        "hjt": "./index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/HeJueting/hjt-cmd.git"
+    },
+    "author": "hejueting",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/HeJueting/hjt-cmd/issues"
+    },
+    "homepage": "https://github.com/HeJueting/hjt-cmd#readme",
+    "dependencies": {
+        "commander": "^7.2.0",
+        "inquirer": "^8.0.0",
+        "node-fetch": "^2.6.1",
+        "unzipper": "^0.10.11"
+    }
+}
