@@ -9,6 +9,10 @@ const { program } = require("commander");
 
 // 定义版本信息
 program.version("0.0.1");
+// 定义参数
+program
+    .option("-t, --test", "this is a test option")
+    .option("-var, --variable <variable>", "this is a variable option", "hello");
 // 定义命令内容
 program
     .command("init <project>")
